@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h1>Welcome to the text analyzer. Enter your text below</h1>
+    <form action="/analyze" method="get">
+        <textarea name="text" style="width: 704px; height: 202px;"></textarea><br>
+
+        <input type="checkbox" name="removepunc"> Remove Punctuation<br>
+        <input type="checkbox" name="capitalize"> capitalize<br>
+        <input type="checkbox" name="newlineremove">New Line Remove<br>
+        <input type="checkbox" name="removeextraspace">Remove Extra Space<br>
+        <button type="submit">Analyze Text</button>
+
+    </form>
+    <script src="" async defer></script>
+</body>
+</html>
